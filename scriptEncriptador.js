@@ -88,7 +88,7 @@ function validarEntrada(cadena) {
     
 function validarTextarea(elem) {
     var txt = elem.value;
-    if (!validarEntrada(txt)) {
+    if (!validarEntrada(txt)||ingreseTexto.value=="") {
     elem.classList.add('invalido');
     infoTexto.style.color ="red";
     botonEncriptar.disabled=true;
