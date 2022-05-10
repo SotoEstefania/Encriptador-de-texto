@@ -14,29 +14,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inter:wght@100;200;400;700&display=swap" rel="stylesheet">
-    <!-- , initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0 -->
+    <!-- , initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0 --    cols="39"  rows="10"-->
     <title>Ecriptador de texto</title>
 </head>
 <body>
-    <img id='logoAlura' src="ImgEncriptador/LogoAlura.png" alt="Logo de Alura">
+    <header>
+        <img id='logoAlura' src="ImgEncriptador/LogoAlura.png" alt="Logo de Alura">
+    </header>
     <main class="main">
-        <section>
-            <textarea oninput="validarTextarea(this)" maxlength="1500" cols="39"  rows="11"  type="text" class='ingreseTexto' placeholder="Ingrese el texto aquí"></textarea>
-            <div class="info">    
-                <img id='infoLogo'src="ImgEncriptador/Infologo.png" alt="Icono de informacion"><p class ='infoTexto'>Sólo letras minúsculas y sin acentos</p>
-            </div>
-            <div class="botones">
-                <button disabled="" onclick="btnEncriptar()"  class="boton botonEncriptar">Encriptar</button>
-                <button disabled="" onclick="btnDesencriptar()" class="boton botonDesencriptar">Desencriptar</button>
-            </div>
+        <section class="sectionTextoAencriptar">
+            <div class='objetos-IngreseTexto'>
+                <textarea oninput="validarTextarea(this)" maxlength="1500"  class="ingreseTexto" type="text"  placeholder="Ingrese el texto aquí"></textarea>
+                <!-- <div class="infoybotones"> -->
+                    <div class="info">    
+                        <img id='infoLogo'src="ImgEncriptador/Infologo.png" alt="Icono de informacion"><p class ='infoTexto'>Sólo letras minúsculas y sin acentos</p>
+                    </div> 
+                    <div class="botones">
+                        <button disabled="" onclick="btnEncriptar()"  class="boton botonEncriptar">Encriptar</button>
+                        <button disabled="" onclick="btnDesencriptar()" class="boton botonDesencriptar">Desencriptar</button>
+                    </div>
+                <!-- </div> -->
+            </div>   
         </section>
-        <section class="textoFinalizado">
-            <img class='muneco' src="ImgEncriptador/Muneco.png" alt="Imagen ilustrativa">
-            <h3 class="ningunMensaje">Ningún mensaje fue encontrado</h3>
-            <br>
-            <p class='ningunMensaje2'>Ingresa el texto que desees encriptar o desencriptar.</p>
-           <textarea cols="35" rows="17" class="resultado"></textarea>
-            <button onclick="copy()" class="boton botonCopiar">Copiar</button>
+        <section class="sectionTextoFinalizado">
+            <div class='objetos-textoFinalizado'>
+                <img class='muneco' src="ImgEncriptador/Muneco.png" alt="Imagen ilustrativa">
+                <h3 class="ningunMensaje">Ningún mensaje fue encontrado</h3>
+                <p class='ningunMensaje2'>Ingresa el texto que desees encriptar o desencriptar.</p>
+                <textarea cols="35" rows="15" class="resultado"></textarea>
+                <button onclick="copy()" class="boton botonCopiar">Copiar</button>
+            </div>
+           
         </section>
     </main>
     <footer>
