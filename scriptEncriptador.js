@@ -1,4 +1,4 @@
-const ingreseTexto = document.querySelector('.ingreseTexto').focus();
+const ingreseTexto = document.querySelector('.ingreseTexto');
 const resultado = document.querySelector('.resultado');
 const muneco = document.querySelector('.muneco');
 const ningunMensaje = document.querySelector('.ningunMensaje');
