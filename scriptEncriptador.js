@@ -18,7 +18,14 @@ function ocultarImagen(){
 function reaparecerImagen(){
     resultado.style.display ='none';
     botonCopiar.style.display ='none';
-    muneco.style.display = "block";
+
+    document.addEventListener('DOMContentLoaded', init);
+    let query=window.matchMedia("(max-width: 780px)");
+    if(query.matches){
+        muneco.style.display ='none';
+    }else{
+        muneco.style.display ='block';
+    }
     ningunMensaje.style.display = "block";
     ningunMensaje2.style.display = "block";
 }
@@ -99,5 +106,21 @@ function validarTextarea(elem) {
     infoTexto.style.color ="#495057";
     botonDesencriptar.disabled=false;
     
+    }
+}
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', init);
+
+function init(){
+	let query=window.matchMedia("(max-width: 780px)");
+	if(query.matches){
+		muneco.style.display ='none';
     }
 }
