@@ -26,12 +26,13 @@
 
     .sectionTextoAencriptar{
         width: 100%;
-        height: 65%;
+        height: 60%;
     }
 
     .ingreseTexto{
         height: 75%;
         width: 100%;
+        margin:0;
     }
     /* .botones{
         height:25%;
@@ -39,7 +40,8 @@
 
     .sectionTextoFinalizado{
         width: 100%;
-        height: 35%;
+        height: 40%;
+        margin:10px 0px;
     }
 
     .objetos-textoFinalizado{
@@ -49,8 +51,9 @@
 
     .resultado{
         width: 90%;
-        min-height: 20vh;
+        min-height: 15vh;
         max-height: fit-content;
+        margin: 10px auto;
     }
 
     .muneco{
@@ -72,6 +75,8 @@
 
     .botonCopiar{
         width: 90%;
+        height: 30%;
+        margin:0px auto;
     }
 
     .autor{
@@ -90,6 +95,9 @@
     header{
         height: 7vh;
     }
+    #logoAlura{
+        height: 60%;
+    }
     .main{
         height: 80vh;
         width: 95vw;
@@ -107,6 +115,7 @@
     }
     .ingreseTexto{
         height: 60%;
+        margin: 0;
     }
     .botones{
         display:flex;
@@ -158,8 +167,12 @@
 @media screen and (max-width: 325px) {
     header{
         height: 7vh;
-    }.main{
-        height: auto;
+    }
+    .main{
+        height: 130vh;
+    }
+    #logoAlura{
+        height: 50%;
     }
     .sectionTextoAencriptar{
         height: 70%;

@@ -8,13 +8,13 @@ header{
     position: static;
     width: 95%;
     margin: auto;
-    height: 10vh;
+    height: 7vh;
     top: 0px;
 }
 #logoAlura{
     position: relative;
     left: 0%;
-    height: 50%;
+    height: 80%;
     margin: auto 0px;
 }
 .main{
@@ -23,7 +23,7 @@ header{
     justify-content: space-between;
     margin:auto;
     position: static;
-    width: 85vw;
+    width: 80vw;
     height: 80vh;
     top: 0px;
 }
@@ -58,7 +58,7 @@ body{
     float: left;
     width: 100%;
     min-height: 205px;
-    padding: 20px auto 5px 0px;
+    margin: 20px auto 5px 0px;
 }
 .ingreseTexto.invalido {
     outline: solid 3px rgba(255, 1, 5, 0.5) ;
@@ -175,6 +175,7 @@ body{
 }
 .objetos-textoFinalizado{
     height: 100%;
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -274,8 +275,9 @@ footer{
     color: #49505760;
     cursor: default;
     margin: auto;
-    width: 85%;
-    height: 10vh;
+    width: 80vw;
+    height: 3vh;
+    /* justify-content: center; */
 }
 .autor{
     padding: 1% 0%;
