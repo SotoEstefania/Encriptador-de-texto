@@ -265,7 +265,7 @@ body{
 }
 
 
-/* footer{
+ /* footer{
     position: static;
     display: flex;
     font-family: 'Amatic SC';
@@ -277,8 +277,8 @@ body{
     margin: auto;
     width: 80vw;
     height: 3vh;
-    /* justify-content: center; */
+    justify-content: center; 
 }
-.autor{
+ .autor{
     padding: 1% 0%;
 } */
