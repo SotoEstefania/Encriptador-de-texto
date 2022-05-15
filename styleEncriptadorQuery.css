@@ -16,10 +16,10 @@
 
 @media screen and (max-width: 780px) {
     header{
-        height: 8vh;
+        height: 7vh;
     }
     .main{
-        height: 85vh;
+        height: 80vh;
         display: flex;
         flex-direction: column;
     }
@@ -78,7 +78,7 @@
         align-self: center;
     }
     footer{
-        height: 5vh;
+        height: 3vh;
         justify-content: center;
         font-size: 80%;
 
@@ -91,7 +91,7 @@
         height: 7vh;
     }
     .main{
-        height: 89vh;
+        height: 80vh;
         width: 95vw;
         justify-content: center;
         align-items: center;
@@ -150,14 +150,14 @@
         height: 65px;
     }
     footer{
-        height: 4vh;
+        height: 3vh;
         justify-content: center;
     }
 }
 
 @media screen and (max-width: 325px) {
     header{
-        height: 10vh;
+        height: 7vh;
     }.main{
         height: auto;
     }
