@@ -86,10 +86,10 @@
 
 @media screen and (max-width: 520px) {
     header{
-        height: 8vh;
+        height: 7vh;
     }
     .sectionTextoAencriptar{
-        height: 92vh;
+        height: 87vh;
     }
     .botones{
         display:flex;
