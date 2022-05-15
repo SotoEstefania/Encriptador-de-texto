@@ -34,9 +34,6 @@
         width: 100%;
         margin:0;
     }
-    /* .botones{
-        height:25%;
-    } */
 
     .sectionTextoFinalizado{
         width: 100%;
@@ -82,12 +79,12 @@
     .autor{
         align-self: center;
     }
-    footer{
+    /* footer{
         height: 3vh;
         justify-content: center;
         font-size: 80%;
 
-    }
+    } */
 } 
 
 
@@ -158,10 +155,10 @@
         margin: 0px 0px 15px 0px;
         height: 65px;
     }
-    footer{
+    /* footer{
         height: 3vh;
         justify-content: center;
-    }
+    } */
 }
 
 @media screen and (max-width: 325px) {
@@ -180,10 +177,10 @@
     .sectionTextoFinalizado{
         height: 30%;
     }
-    footer{
+    /* footer{
         padding: 10px 0px;
         margin: auto;
-    }
+    } */
 }
 
 

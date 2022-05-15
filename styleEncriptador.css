@@ -265,7 +265,7 @@ body{
 }
 
 
-footer{
+/* footer{
     position: static;
     display: flex;
     font-family: 'Amatic SC';
@@ -281,4 +281,4 @@ footer{
 }
 .autor{
     padding: 1% 0%;
-}
+} */
