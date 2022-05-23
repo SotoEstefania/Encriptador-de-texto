@@ -57,7 +57,6 @@ body{
     color: #0A3871;
     float: left;
     width: 100%;
-    min-height: 205px;
     margin: 20px auto 5px 0px;
 }
 .ingreseTexto.invalido {

@@ -15,42 +15,57 @@
 }
 
 @media screen and (max-width: 780px) {
-    header{
-        height: 7vh;
-    }
+
     .main{
-        height: 80vh;
+        height: auto;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
     }
 
     .sectionTextoAencriptar{
         width: 100%;
-        height: 60%;
+        height: auto;
     }
 
     .ingreseTexto{
-        height: 75%;
+        height: 200px;
         width: 100%;
         margin:0;
+        font-size: 28px;
     }
-
+    .boton{
+        height: 10vh;
+    }
+    .botones{
+        padding: 0;
+    }
+    .info{
+        margin: 5px 0px;
+    }
+    .infoTexto{
+        font-size: 10px;
+        margin:0px;
+    }
+    #infoLogo{
+        width: 12px;
+    }
     .sectionTextoFinalizado{
         width: 100%;
-        height: 40%;
+        height: auto;
         margin:10px 0px;
     }
 
     .objetos-textoFinalizado{
-        justify-content: space-evenly;
+        justify-content: center;
         width: 100%;
     }
 
     .resultado{
         width: 90%;
-        min-height: 15vh;
-        max-height: fit-content;
+        height: 150px;
         margin: 10px auto;
+        font-size: 20px;
     }
 
     .muneco{
@@ -58,13 +73,13 @@
     }
 
     .ningunMensaje{
-        margin: 0%;
+        margin: 10px auto 5px auto;
         width: 90%;
         align-self: center;
         font-size: 18px;
     }
     .ningunMensaje2{
-        margin: 0%;
+        margin: 5px auto 10px auto;
         width: 90%;
         align-self: center;
         font-size: 16px;
@@ -73,7 +88,8 @@
     .botonCopiar{
         width: 90%;
         height: 30%;
-        margin:0px auto;
+        margin:0px auto 10px auto;
+        height: 10vh;
     }
 
     .autor{
@@ -96,7 +112,7 @@
         height: 60%;
     }
     .main{
-        height: 80vh;
+        /* height: 80vh; */
         width: 95vw;
         justify-content: center;
         align-items: center;
@@ -111,7 +127,7 @@
         width: 100%;
     }
     .ingreseTexto{
-        height: 60%;
+        height: 200px;
         margin: 0;
     }
     .botones{
@@ -124,8 +140,9 @@
         padding: 0px 0px 10px 0px;
     }
     .boton{
-        width: 100%;
+        height: 8vh;
         margin: 3px 0px;
+        width: 100%;
     }
 
     .sectionTextoFinalizado{
@@ -149,11 +166,13 @@
         align-self: center;
         margin:10px 0px;
     }
+    .resultado{
+        height: 150px;;
+    }
     .botonCopiar{
         width: 100%;
         align-self: center;
         margin: 0px 0px 15px 0px;
-        height: 65px;
     }
     /* footer{
         height: 3vh;
@@ -173,6 +192,9 @@
     }
     .sectionTextoAencriptar{
         height: 70%;
+    }
+    .boton{
+        height: 10vh;
     }
     .sectionTextoFinalizado{
         height: 30%;
