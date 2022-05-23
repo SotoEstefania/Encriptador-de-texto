@@ -207,7 +207,7 @@
         margin: auto;
     } */
 }
-@media all and (min-width: 400px) and (max-width: 600px) and (orientation: landscape) {
+@media all and (min-width: 400px) and (max-width: 780px) and (orientation: landscape) {
 
 .muneco{
     display: none;
