@@ -143,6 +143,7 @@
         height: 8vh;
         margin: 3px 0px;
         width: 100%;
+        font-size: 20px;
     }
 
     .sectionTextoFinalizado{
@@ -204,6 +205,12 @@
         margin: auto;
     } */
 }
+@media all and (min-width: 400px) and (max-width: 600px) and (orientation: landscape) {
 
+.muneco{
+    display: none;
+}
+
+}
 
 
