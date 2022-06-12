@@ -96,12 +96,6 @@
     .autor{
         align-self: center;
     }
-    /* footer{
-        height: 3vh;
-        justify-content: center;
-        font-size: 80%;
-
-    } */
 } 
 
 
@@ -113,7 +107,6 @@
         height: 60%;
     }
     .main{
-        /* height: 80vh; */
         width: 95vw;
         justify-content: center;
         align-items: center;
@@ -128,7 +121,7 @@
         width: 100%;
     }
     .ingreseTexto{
-        height: 200px;
+        height: 180px;
         margin: 0;
     }
     .botones{
@@ -169,7 +162,7 @@
         margin:10px 0px;
     }
     .resultado{
-        height: 150px;
+        height: 120px;
         font-size: 22px;
     }
     .botonCopiar{
@@ -177,10 +170,6 @@
         align-self: center;
         margin: 0px 0px 15px 0px;
     }
-    /* footer{
-        height: 3vh;
-        justify-content: center;
-    } */
 }
 
 @media screen and (max-width: 325px) {
@@ -202,17 +191,16 @@
     .sectionTextoFinalizado{
         height: 30%;
     }
-    /* footer{
-        padding: 10px 0px;
-        margin: auto;
-    } */
 }
-@media all and (min-width: 400px) and (max-width: 780px) and (orientation: landscape) {
+@media screen and (max-width: 900px) and (orientation: landscape) {
 
-.muneco{
-    display: none;
-}
-
+    .muneco{
+        display: none;
+    }
+    .objetos-textoFinalizado{
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
