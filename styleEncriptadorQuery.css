@@ -13,6 +13,14 @@
         margin: auto;
     }
 }
+@media screen and (max-width: 900px) {
+    .ningunMensaje{
+        font-size: 20px
+    } 
+    .ningunMensaje2{
+        font-size: 14;
+    }
+}
 
 @media screen and (max-width: 780px) {
 
@@ -177,13 +185,19 @@
         height: 7vh;
     }
     .main{
-        height: 130vh;
+        height: 100vh;
     }
     #logoAlura{
         height: 50%;
     }
     .sectionTextoAencriptar{
         height: 70%;
+    }
+    .ingreseTexto{
+        height: 250px;
+    }
+    .botones{
+        padding:0;
     }
     .boton{
         height: 10vh;
@@ -192,15 +206,6 @@
         height: 30%;
     }
 }
-@media screen and (max-width: 900px) and (orientation: landscape) {
 
-    .muneco{
-        display: none;
-    }
-    .objetos-textoFinalizado{
-        justify-content: center;
-        align-items: center;
-    }
-}
 
 

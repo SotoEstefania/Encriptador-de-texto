@@ -25,12 +25,6 @@ function reaparecerImagen(){
     }else{
         muneco.style.display ='block';
     }
-    let query2=window.matchMedia("(max-width: 900px) and (orientation:landscape)");
-    if(query2.matches){
-        muneco.style.display ='none';
-    }else{
-        muneco.style.display ='block';
-    }
     ningunMensaje.style.display = "block";
     ningunMensaje2.style.display = "block";
 }
@@ -70,10 +64,6 @@ function copy() {
     let copyText = document.querySelector(".resultado");
     copyText.select();
     document.execCommand("copy");
-    // let query=window.matchMedia("(max-width: 900px) and (orientation: landscape)");
-	// if(query.matches){
-	// 	muneco.style.display ='none';
-    // }
     reaparecerImagen();
     ingreseTexto.value='';
     botonEncriptar.disabled=true;
