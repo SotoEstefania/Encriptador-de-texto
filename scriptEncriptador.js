@@ -18,8 +18,7 @@ function ocultarImagen(){
 function reaparecerImagen(){
     resultado.style.display ='none';
     botonCopiar.style.display ='none';
-
-    let query=window.matchMedia("(max-width: 780px)");
+    let query=window.matchMedia("screen and (max-width: 780px)");
     if(query.matches){
         muneco.style.display ='none';
     }else{
