@@ -40,14 +40,14 @@
     }
 
     .ingreseTexto{
-        height: 230px;
+        height: 250px;
         width: 100%;
         margin:0;
         font-size: 28px;
     }
     .boton{
         height: 8vh;
-        max-height: 50px;
+        max-height: 60px;
         font-size: 20px;
     }
     .botones{
