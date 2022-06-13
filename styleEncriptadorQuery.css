@@ -40,13 +40,14 @@
     }
 
     .ingreseTexto{
-        height: 200px;
+        height: 230px;
         width: 100%;
         margin:0;
         font-size: 28px;
     }
     .boton{
         height: 8vh;
+        max-height: 50px;
         font-size: 20px;
     }
     .botones{
@@ -57,6 +58,7 @@
     }
     .infoTexto{
         margin:0px;
+        font-size: 14px;
     }
     #infoLogo{
         width: 12px;
@@ -131,7 +133,6 @@
         width: 100%;
     }
     .ingreseTexto{
-        height: 180px;
         margin: 0;
     }
     .botones{
